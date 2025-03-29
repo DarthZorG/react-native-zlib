@@ -16,7 +16,7 @@ android {
     targetSdkVersion rootProject.ext.targetSdkVersion
 
     versionCode 1
-    versionName "1.0"
+    versionName "1.2"
   }
 
   sourceSets {
@@ -55,5 +55,6 @@ repositories {
 }
 
 dependencies {
+  implementation 'androidx.annotation:annotation:1.0.2'
   api 'com.facebook.react:react-native:+'
 }
